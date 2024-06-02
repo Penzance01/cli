@@ -1,0 +1,11 @@
+version = 1
+
+[[analyzers]]
+name = "shell"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/Penzance01/cli"
+  dependencies_vendored = true
